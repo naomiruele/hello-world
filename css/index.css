@@ -13,8 +13,28 @@
 
 .body {
     display: inline-flex;
+    flex-direction: row;
     background-color: aqua;
     height: 100%;
+}
+
+.left{
+    flex: 50%;
+    height: 100%;
+}
+
+.right {
+    flex: 50%;
+    height: 100%;
+}
+
+.image-container{
+    background-image: url("https://static1.squarespace.com/static/5a918c4c3917ee828d5f0ba9/t/5a986e17e4966b76bbe7a849/1519939099975/Naomi-Ruele-100-women-Fb.jpg");
+    background-position: right; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain;
+    height: 100%;
+    width: 100%;
 }
 
 .header-items {
@@ -70,6 +90,4 @@
 }
 
 
-
-}
 
