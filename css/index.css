@@ -14,7 +14,7 @@
 .body {
     display: inline-flex;
     flex-direction: row;
-    background-color: aqua;
+    background-color: black;
     height: 100%;
 }
 
@@ -40,10 +40,9 @@
 .header-items {
     align-self: center;
     padding: 0 15px;
-    font-size: 16 pt;
+    font-size: 20pt;
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
-    
 }
 
 .nav-wrapper{
@@ -53,7 +52,8 @@
 }
 
 .nav-wrapper div{
-    /* width: 100%;
+    /*
+     width: 100%;
     height: 100%; */
 }
 
@@ -95,6 +95,23 @@ a:hover {
     display: inline-block;
 }
 
+.menu-icon{
+    background-image: url("../assets/menu-icon.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    margin: 0 15px;
+    align-self: center;
+    display: none;
+}
 
+@media screen and (max-width: 950px){
+    .header-items{
+        display: none
+    }
 
-
+    .menu-icon {
+        display: block
+    }
