@@ -29,10 +29,10 @@
 }
 
 .image-container{
-    background-image: url("https://static1.squarespace.com/static/5a918c4c3917ee828d5f0ba9/t/5a986e17e4966b76bbe7a849/1519939099975/Naomi-Ruele-100-women-Fb.jpg");
-    background-position: right; /* Center the image */
+    background-image: url(../assets/Website-Banner.png);
+    background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: contain;
+    background-size: cover;
     height: 100%;
     width: 100%;
 }
@@ -41,14 +41,15 @@
     align-self: center;
     padding: 0 15px;
     font-size: 20pt;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
     display: inline-block;
 }
 
 .intro{   
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     color: black;
     font-size: 24pt;
+    
 
 
 .nav-wrapper{
@@ -75,7 +76,7 @@
   }
 
 .biography-description {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     color: black;
     font-size: 24pt;
     width: 70%;
