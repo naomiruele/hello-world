@@ -14,16 +14,16 @@
 .body {
     display: inline-flex;
     flex-direction: row;
-    background-color: black;
+    background-color: white;
     height: 100%;
 }
 
-.left{
+.split-left{
     flex: 50%;
     height: 100%;
 }
 
-.right {
+.split-right {
     flex: 50%;
     height: 100%;
 }
@@ -37,13 +37,19 @@
     width: 100%;
 }
 
-.header-items {
+.header-items{
     align-self: center;
     padding: 0 15px;
     font-size: 20pt;
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
 }
+
+.intro{   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 24pt;
+
 
 .nav-wrapper{
     display: inline-flex;
@@ -68,10 +74,12 @@
     padding: 15px;
   }
 
-.ul {
+.biography-description {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
     font-size: 24pt;
+    width: 70%;
+    margin: auto;
 
 }
 
