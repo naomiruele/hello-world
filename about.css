@@ -29,6 +29,28 @@
     height: 100%;
 }
 
+.row{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding: 5% 0;
+}
+
+.col{
+    width: 50%;
+    /* margin: auto; */
+    /* text-align: justify;
+    float: right;*/
+}
+
+
+.about-content {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    float: right;
+}
+
 .image-container{
     background-image: url(../assets/Website-Banner.png);
     background-position: center; /* Center the image */
@@ -42,7 +64,7 @@
     align-self: center;
     padding: 0 15px;
     font-size: 20pt;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
 }
 
